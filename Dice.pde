@@ -11,7 +11,7 @@ void draw()
   int num;
   num = 0;
   fill (255, 255, 210);
-  rect (0, 600, 650, 601);
+  rect (-1, 600, 650, 601);
   for (int y = 0; y < 600; y += 30 * k)
   {
     for (int x = 0; x < 600; x += 30 * k)
