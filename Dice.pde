@@ -25,7 +25,7 @@ void draw()
     }
   }
   textSize (24);
-  text ("Your roll is " + num, 180, 635);
+  text ("Your roll is " + num, 190, 635);
 }
 void mousePressed()
 {
