@@ -7,7 +7,7 @@ void setup()
 }
 void draw()
 {
-  k = 1; //one other value works with this, that being two
+  k = 1; //one other value works with this, that being two, other values get weird
   int num;
   num = 0;
   fill (255, 255, 210);
