@@ -1,6 +1,6 @@
 Die bob;
 int k; //experimental idea, is scale factor
-int rollNum = 0; //is amount of times mouse is pressed
+int rollNum = 1; //is amount of times mouse is pressed
 void setup()
 {
   size (601, 650);
@@ -10,7 +10,7 @@ void draw()
 {
   k = 1; //one other value works with this, that being two, other values get weird
   int num;
-  int totNum
+  int totNum;
   int aveNum;
   num = 0;
   fill (255, 255, 210);
