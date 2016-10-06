@@ -1,6 +1,6 @@
 Die bob;
 int k; //experimental idea, is scale factor
-int rollNum //is amount of times mouse is pressed
+int rollNum = 0; //is amount of times mouse is pressed
 void setup()
 {
   size (601, 650);
