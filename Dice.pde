@@ -25,7 +25,7 @@ void draw()
     }
   }
   textSize (24);
-  text ("Your roll is " + num, 190, 635);
+  text ("Your sum of rolls is " + num, 190, 635);
 }
 void mousePressed()
 {
