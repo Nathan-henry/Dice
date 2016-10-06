@@ -1,6 +1,5 @@
 Die bob;
 int k; //experimental idea, is scale factor
-int rollNum = 1; //is amount of times mouse is pressed
 void setup()
 {
   size (601, 650);
@@ -10,8 +9,6 @@ void draw()
 {
   k = 1; //one other value works with this, that being two, other values get weird
   int num;
-  int totNum;
-  int aveNum;
   num = 0;
   fill (255, 255, 210);
   rect (-1, 600, 650, 601);
@@ -29,15 +26,10 @@ void draw()
   }
   textSize (24);
   text ("Your sum of rolls is " + num, 190, 635);
-  totNum += num;
-  aveNum = totNum / rollNum;
-  textSize (12);
-  text ("Average Sum of rolls" + aveNum, 25, 635);
 }
 void mousePressed()
 {
   redraw();
-  rollNum++;
 }
 class Die
 {
